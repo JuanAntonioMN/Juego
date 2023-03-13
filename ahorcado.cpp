@@ -143,6 +143,7 @@ void mapa(int vidas){
 //Juego
 //Esta funcion realiza el juego lleva contadores cadenas de caracteres y caracteres
 int juego(char jugador1[30],char palabra1[10]){
+	printf("MODIFICAR ARCHIVO\n");
 	int i=0,contar_letra=0,pos=0,letras=0;//contadores 
 	char palabra[8]="*******",letra,letra2;//cadenas de letras y un caracter
 	bool r=false,band=false;//bandera
